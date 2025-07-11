@@ -12,66 +12,101 @@ import { Box } from '@chakra-ui/react'
 
 const experiences = [
   {
-    title: "Associate Business Analyst",
-    company: "Technodege Solutions, India",
-    duration: "February 2022 – September 2023",
+    title: "Service Delivery, Operations Manager, and Cloud Architect - BMW (VDM) | IDOP",
+    company: "Capgemini Technology Services",
+    duration: "June 2021 – Present",
     description: [
-      "Designed and delivered data-driven reports by integrating datasets from SQL, Excel, and CRM systems to support marketing and finance decision-making.",
-      "Collaborated with cross-functional teams to streamline requirement gathering, market mapping, and project documentation, reducing reporting errors and delivery cycles by 30%.",
-      "Automated recurring reporting processes using Excel VBA and logic-based templates, freeing 12+ hours per week for sourcing insights and strategic analysis.",
-      "Built dashboards to monitor KPIs and deal execution metrics, enhancing cross-functional planning and contract visibility."
+      "Led a high-performing 25-member team, delivering L2/L3 support for AWS and OS-level issues, achieving 98% resolution rate while consistently meeting SLA compliance.",
+      "Architected and deployed highly scalable AWS infrastructure, reducing operational costs by 40% and increasing system availability by 30%.",
+      "Managed and resolved over 150 major incidents, maintaining a 95% customer satisfaction score through proactive stakeholder communication and timely incident resolution.",
+      "Decreased incident volume by 90% through targeted problem management, root cause analysis (RCA), and process improvements, significantly boosting service efficiency.",
+      "Collaborated with cross-functional teams across India, Germany, Poland, UK, and China to implement Agile practices, aligning cloud solutions with business goals, and boosting team productivity by 25%.",
+      "Led successful migration from OpenShift to AWS and transitioned on-premises databases to Amazon RDS, improving system scalability and performance by 40%.",
+      "Spearheaded process automation initiatives, reducing manual work by 35% and increasing overall team productivity and efficiency."
     ]
   },
   {
-    title: "Compliance Analyst",
-    company: "S. Sathyanarayanan & Co.",
-    duration: "February 2021 – January 2022",
+    title: "Java Team Lead — Opel Vauxhall",
+    company: "Capgemini Technology Services",
+    duration: "May 2019 – May 2021",
     description: [
-      "Facilitated statutory audits and collaborated with HR and Accounting to implement regulatory affairs procedures, reducing compliance issues by 20%.",
-      "Coordinated 50+ board meetings, drafted disclosures, and managed governance records to support corporate compliance.",
-      "Designed Excel-based trackers and legal documentation checklists, streamlining reporting processes and enhancing audit readiness."
+      "Managed the operational aspects of five critical OPEL sales and after-sales applications, leading the successful transition from GM to OV and enabling seamless VDI access for 100+ stakeholders.",
+      "Ensured server-side performance optimization on Linux/Sun Solaris, reducing system downtimes by 40% and resolving critical SSL issues in collaboration with cross-functional teams.",
+      "Played a key role in client communication and requirements gathering, traveling to London to ensure smooth transition and timely delivery of the project milestones."
     ]
   },
   {
-    title: "Business Operations Coordinator",
-    company: "Spiro Lifecare Pvt. Ltd.",
-    duration: "August 2020 – January 2021",
+    title: "Senior Java Developer",
+    company: "Velocis Systems (P) Ltd",
+    duration: "February 2019 – May 2019",
     description: [
-      "Planned and executed fundraising events by optimizing schedules and volunteer coordination, effectively reducing operational costs by 20%.",
-      "Applied Excel to analyze event revenue and cost patterns, enabling a 15% improvement in financial planning for future initiatives."
+      "Led the development of UI-centric web applications for IOCL's Marketing Department, improving user experience and increasing user engagement by 25%.",
+      "Enhanced and optimized existing systems using XML, JavaScript, JSON, AJAX, and jQuery, resulting in a 20% reduction in application load times.",
+      "Developed efficient, scalable code with a focus on maintainability, which improved application reliability by 15%."
+    ]
+  },
+  {
+    title: "Java Developer",
+    company: "Cyfuture India Pvt Ltd",
+    duration: "August 2015 – January 2019",
+    description: [
+      "Contributed to the software development lifecycle at IOCL's Marketing Department, leading the creation of specifications and the development of mission-critical applications.",
+      "Maintained and supported vendor applications, ensuring 99% uptime and contributing to the development of Web and Windows applications with a focus on scalability.",
+      "Developed reusable code and automated tasks, reducing development time by 20% and increasing team output."
+    ]
+  },
+  {
+    title: "Java Developer (Apprenticeship)",
+    company: "Indian Oil Corporation Limited (IOCL), Mumbai",
+    duration: "August 2014 – July 2015",
+    description: [
+      "Maintained comprehensive project documentation and developed custom reports using Actuate, enhancing reporting efficiency by 30%.",
+      "Optimized and developed GUIs using JSP, Struts, CSS, HTML, Ajax, and JavaScript, improving UI performance and reducing page load time by 25%.",
+      "Designed and implemented UML diagrams to outline system architecture, contributing to better system understanding and collaboration."
     ]
   }
 ]
 
 const skills = {
-  languages: ["Python", "Java", "R"],
-  dataManagement: ["SQL", "PostgreSQL"],
-  dataTools: ["Excel - Advanced", "Power BI", "Tableau", "NetSuite", "Klipfolio", "Looker Studio", "Airtable"],
-  software: ["Adobe Creative Cloud", "Microsoft Office Suite", "WordPress", "Adobe Analytics", "CRM", "QuickBooks", "HubSpot", "SEMrush"]
+  languages: ["Java", "JavaScript", "TypeScript", "C++", "HTML", "CSS"],
+  serviceManagement: ["ITIL Framework and SLA Management", "Stakeholder Management", "Escalation Handling", "Agile/Scrum Experience"],
+  cloudAndInfrastructure: ["AWS Expertise", "Service Delivery Management", "Governance and Compliance", "Key Performance Indicators"],
+  incidentAndOperations: ["Major Incident Management (MIM)", "Service Operations Management"],
+  frameworks: ["Spring Boot", "JPA/Hibernate", "React.js", "Node.js", "Redux", "Spring MVC"],
+  familiar: ["AWS", "RDS", "Kafka", "Django"],
+  concepts: ["Data Structures and Algorithms", "DBMS", "Operating System", "Low-Level Design", "Microservices", "OOPS", "REST APIs"],
+  tools: ["IntelliJ IDEA", "Git", "Docker", "MySQL Workbench", "Postman", "Microsoft Visual Studio Code", "Android Studio", "CI/CD pipelines"],
+  database: ["MySQL", "OracleDB", "MongoDB", "PostgreSQL", "DynamoDB", "Elastic"]
 }
 
 const education = [
   {
-    degree: "MBA in Business Analytics",
-    institution: "Pace University, NY",
-    duration: "Jan 2024 – Dec 2025",
-    location: "GPA: 3.93/4.0 | Courses: Visual Analytics, Marketing Performance, DBMS, Finance"
+    degree: "Software Engineering",
+    institution: "Global National Institute of Information Technology",
+    duration: "2013 – 2015",
+    location: "Mumbai"
   },
   {
-    degree: "M.Com in Business Management",
-    institution: "Mumbai University, India",
-    duration: "July 2019 – June 2021",
-    location: "GPA: 3.9/4.0 | Courses: Statistics, Research, Strategic Management"
+    degree: "Bachelor of Commerce (B. Com)",
+    institution: "Thakur College of Science and Commerce",
+    duration: "2013",
+    location: "Mumbai University"
   }
 ]
 
 const certifications = [
-  "Project Destined – Private Equity Real Estate Program (2025)",
-  "Commercial Real Estate Bridge Program – Project Destined x Newmark (2025)"
+  "Microsoft Certification in MS-SQL 2008",
+  "Decision Making Certification by Harvard Manage Mentor",
+  "Presentation Skills Certification by Harvard Manage Mentor",
+  "Team Creation Certification by Harvard Manage Mentor",
+  "Young Emerging Professionals (YEP)",
+  "Aspiring Architect L0 Certification"
 ]
 
 const awards = [
-  "Selected for competitive private equity and real estate bridge programs"
+  "Received the STAR (Special Thanks and Recognition) Award for the period October 1, 2019 to December 31, 2019.",
+  "Received the Xtra Mile Award for Enabling Layer - BMW Q2 2021.",
+  "Received the Xtra Mile Award for Opel Vauxhall Q3 2021."
 ]
 
 function App() {
@@ -82,20 +117,20 @@ function App() {
         <Box minH="100vh" bg="gray.900">
           <Navbar />
           <Hero 
-            name="VEEDHI DHANAK"
-            title="Business Analyst | Data & Operations | MBA Candidate"
+            name="SIDDHANT YADAV"
+            title="Service Delivery Manager and Cloud Architect"
           />
           <About 
-            description="MBA candidate with hands-on experience in business analysis, compliance, and operations. Proven ability to convert data into strategic insights, automate reporting, and support decision-making across marketing, finance, and legal verticals. Skilled in SQL, Excel, Power BI, and collaborative project execution with a strong foundation in real estate finance and analytics."
+            description="Service Delivery Manager and Cloud Architect with over 10 years of experience leading teams and optimizing AWS infrastructures. Expert in scalable cloud architecture solutions, incident management, and driving operational efficiency. Skilled in Agile methodologies, service delivery, and stakeholder engagement, with a focus on reducing costs and improving system performance. Known for delivering complex projects on time and aligning cloud solutions with business goals, consistently exceeding customer expectations."
           />
           <Experience experiences={experiences} />
           <Skills skills={skills} />
           <Education education={education} certifications={certifications} awards={awards} />
           <Contact 
-            email="dhanakveedhi@gmail.com"
-            phone="(551) 280-6584"
-            linkedin="https://www.linkedin.com/in/veedhi-dhanak"
-            visa="F-1 Student Visa, U.S. (Valid)"
+            email="yadavsiddhant5@gmail.com"
+            phone="+91 7506927677"
+            linkedin="https://www.linkedin.com/in/siddhant-yadav-53aa5b160/"
+            visa="Valid United States of America (U.S). B1/B2 Visa (Multiple Entry, Valid Until 2035)"
           />
         </Box>
       </Router>
